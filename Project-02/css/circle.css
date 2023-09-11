@@ -1,0 +1,246 @@
+.circle{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+.logo{
+    position: absolute;
+    left: 156px;
+    top: 256px;
+}
+.loder{
+    position: relative;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 3px solid #E6E6E6;
+    animation: loder 50s linear infinite;
+}
+.loder .one{
+position: absolute;
+top: 120px;
+left: -12px;
+animation: one 50s linear infinite;
+}
+@keyframes one{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+.loder .two{
+    position: absolute;
+    right: 160px;
+    top: 416px;
+    animation: one 50s linear infinite;
+}
+.loder .three{
+        position: absolute;
+        /* top: 10px; */
+        left: 302px;
+        animation: one 50s linear infinite;
+}
+.loder .four{
+    position: absolute;
+    top: 160px;
+    right: -25px;
+    animation: one 50s linear infinite;
+}
+@keyframes loder{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0);
+    }
+    to{
+        transform: rotate(-360deg);
+        filter: hue-rotate(-360deg);
+    }
+}
+/************************ loder-1 *****************************/
+.loder-1{
+    position: relative;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    border: 3px solid #E6E6E6;
+    animation: loder-1 55s linear infinite;
+    margin-left: -45ch;
+
+}
+.loder-1 .five{
+    position: absolute;
+    left: 224px;
+    animation: five 55s linear infinite;
+}
+@keyframes five{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+        filter: hue-rotate(-360deg);
+    }
+}
+.loder-1 .six{
+    position: absolute;
+    bottom: -24px;
+    animation: five 55s linear infinite;
+}
+.loder-1 .seven{
+    position: absolute;
+    left: 50px;
+    animation: five 55s linear infinite;
+}
+
+@keyframes loder-1{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+/************************ loder-2 *****************************/
+.loder-2{
+    position: relative;
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    border: 3px solid #E6E6E6;
+    animation: loder-2 60s linear infinite;
+    margin-left: -31.5ch;
+}
+.loder-2 .eight{
+    position: absolute;
+    /* bottom: 60px; */
+    /* right: 40px; */
+    left: 146px;
+    animation: eight 60s linear infinite;
+}
+@keyframes eight{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+.loder-2 .nine{
+    position: absolute;
+    bottom: 60px;
+    /* right: 40px; */
+    left: -26px;
+    animation: eight 60s linear infinite;
+}
+@keyframes loder-2{
+    form{
+        transform: rotate(0deg);
+        filter: hue-rotate(0);
+    }
+    to{
+        transform: rotate(-360deg);
+        filter: hue-rotate(-360deg);
+    }
+}
+/****************************************** Animation-2 ***************************************/
+.col-sm-5{
+    /* position: relative; */
+    padding-top: 60px;
+  }
+.col-sm-5 .up-png{
+    margin-top: -40px!important;
+    display: flex;
+    align-items: right;
+    margin-left: 10px;
+}
+
+  .thumb_1{
+    margin-left: 100px;
+    align-items: right;
+    position: relative;
+    animation: thumb_1 10s linear infinite;
+  }
+  @keyframes thumb_1 {
+      0%  {left:0px; top:75px;}
+      50%  {left:0px; top:100px;}
+      0%  {left:0px; top:75px;}
+      100%  {left:0px; top:75px;}
+
+    }
+      .thumb_2{
+        margin-top: 35px;
+        position: relative;
+        margin-left: 56px;
+        animation: thumb_2 8s linear infinite;
+      }
+      @keyframes thumb_2 {
+        0%  {left:0px; top:75px;}
+        50%  {left:0px; top:100px;}
+        0%  {left:0px; top:75px;}
+        100%  {left:0px; top:75px;}
+      }
+.middle{
+    margin-top: -25px;
+}
+    .thumb_3{
+            position: relative;
+            align-items: right;
+            animation: thumb_3 4s linear infinite;
+          }
+    @keyframes thumb_3 {
+        0%  {left:0px; top:75px;}
+        50%  {left:0px; top:100px;}
+        0%  {left:0px; top:75px;}
+        100%  {left:0px; top:75px;}
+    }
+.down{
+    margin-top: -200px;
+}
+    .thumb_4{
+        margin-right: 16px;
+        position: relative;
+        animation: thumb_4 5s linear infinite;
+      }
+@keyframes thumb_4 {
+    0%  {left:0px; top:75px;}
+    50%  {left:0px; top:100px;}
+    0%  {left:0px; top:75px;}
+    100%  {left:0px; top:75px;}
+}
+
+.down .thumb_5{
+    position: relative;
+    animation: thumb_5 10s linear infinite;
+  }
+@keyframes thumb_5 {
+    0%  {left:0px; top:75px;}
+    50%  {left:0px; top:100px;}
+    0%  {left:0px; top:75px;}
+    100%  {left:0px; top:75px;}
+}
+.thumb_6{
+    margin-top: 140px;
+    position: relative;
+    animation: thumb_6 6s linear infinite;
+  }
+@keyframes thumb_6 {
+    0%  {left:0px; top:75px;}
+    50%  {left:0px; top:100px;}
+    0%  {left:0px; top:75px;}
+    100%  {left:0px; top:75px;}
+}
+/****************************************** Animation-2-Finished ***************************************/

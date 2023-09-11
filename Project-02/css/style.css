@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+background: rgba(0,0,0,.2)!important;
+position: fixed!important;
+top: 0;
+left: 0;
+width: 100%;
+height: 90px;
+transition: 0.3s;
+}
+.navbar.hide{
+    transform: translateY(-100%);
+
+}
+.navbar .nav-item{
+color: #fff!important;
+margin: 0px 10px;
+font-weight: 600;
+}
+.navbar .nav-item .nav-link{
+    color: #fff!important;
+    font-size: 16.5px;
+    letter-spacing: 0.3px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #FACAC8!important;
+}
+.icon .fa{
+    color: #fff;
+    font-size: 17px;
+    margin: 0 15px;
+}
+.icon .fa:hover{
+    color: #FACAC8!important;
+}
+.button-1{
+    border-radius: 50px;
+    height: 48px;
+    width: 170px;
+    border: 2px solid #fff;
+    background: transparent;
+    margin-left: 5px;   
+}
+.button-1:hover{
+    background-color: #EF2C1E!important;
+    border: 0px!important;
+    transition: none!important;
+    box-shadow: 1px 1px 10px #e47676!important;
+}
+.button-1 .btn{
+    color: #fff!important;
+    font-size: 17px!important;
+    text-align: center;
+    padding: 8px 24px;
+    font-weight: 600;
+}
+.button-1 .fa{
+    padding-right: 5px;
+    font-size: 15px;
+
+}
+/********************************** navber-end ****************************/
+.header{
+    height: 820px;
+    background-size:cover;
+    background:linear-gradient(red, red), url(../images/banner-img-2.jpg) repeat fixed 100% ;
+    background-blend-mode:screen;
+    background-size:cover;
+    /* background-color: #cc0d0a!important; */
+} 
+.header .col-sm-7 .main-text h1{
+font-size: 60px;
+color: #fff;
+font-weight: bold;
+padding-top: 200px;
+line-height: 60px;
+
+}
+.header .col-sm-7 .main-text p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 15px;  
+    }
+.header .col-sm-7 .header-button .btn-1{
+    height: 47px;
+    width: 160px;
+    border: 2px solid #Fff;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    background: transparent;
+    color: #fff;
+    margin: 15px 13px;
+    transition: 0.5s;
+}
+.header .col-sm-7 .header-button .btn-1:hover{
+    background-color: #F8472B;
+    border: 0px;
+    transition: 0.5s;
+}
+.header .col-sm-7 .header-button .btn-2{
+    height: 47px;
+    width: 130px;
+    border: 2px solid #Fff;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    background: transparent;
+    color: #fff;
+    transition: 0.5s;
+}
+.header .col-sm-7 .header-button .btn-2:hover{
+    background-color: #F8472B;
+    border: 0px;
+    transition: 0.5s;
+}
+.waves{
+    margin-top: -30px;
+}
+/* *****************************************Header-Card Repair*******************************/
+.repair{
+    padding-top: 300px;
+    position: relative;
+}
+.row .col-md-4 .card{
+    border-radius: 8px;
+    border: 0px;
+    background-color: #F7F7F7;
+    box-shadow: 1px 1px 10px #d3aeae!important;
+    transition: 0.5s;
+}
+.row .col-md-4 .card:hover{
+    margin-top: -10px;
+    transition: 0.5s;
+}
+
+.row .col-md-4 .card .card-body{
+    padding-left: 32px;
+}
+
+.col-md-4 .card-title{
+    font-size: 30px;
+    color: #222222;
+    font-family: Montserrat;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+/*********************************** Abuot ***********************/
+.about{
+    background-color: #EFE1E1;
+}
+
+.col-md-6 .title .about-title{
+    font-size: 60px;
+    color: #222222;
+    font-weight:bolder;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 50px;
+    width: 500px;
+    text-align: center;
+    padding-left: 45px;
+}
+.col-md-6 .title .h-title{
+    font-weight: bold;
+    color: #5F2222;
+
+}
+.col-md-6 .title .h-title .fa{
+    font-weight: bold;
+    color: #C77BF8;
+    width: 25px;
+    font-size: 18px;
+}
+.col-md-6 .title .card-text{
+    width: 450px;
+    padding-left: 31px;
+    margin-top: -8px;
+    color: #222222;
+}
+.col-md-6 .btn{
+    height: 47px;
+    width: 147px;
+    border: 2px solid #F8472B;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px 190px;
+    font-weight: 500;
+}
+.col-md-6 .btn:hover{
+    background-color: #F8472B;
+    color: #fff;
+}
+
+/************************* Abuot-finished ***************************/
+
+/************************* services-Start ***************************/
+.services{
+    background-color: #EEEAF5;
+}
+.service-header{
+    width: 610px;
+    margin-left: 250px;
+    /* font-family: Montserrat; */
+}
+.service-header h2{
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: -80px;
+    letter-spacing: -3px;
+    color: #222222;
+}
+.service-header p{ 
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 30px;
+    line-height: 25px;
+}
+/************************* services-Header-text-finished ***************************/
+.col-md-4 .service-card{
+    height: 72px!important;
+    width: 72px!important;
+    background-color: #F6DDD9;
+    margin-left: 20px;
+    padding: 15px 16px;
+    border-radius: 10px;
+}
+.col-md-4 .card-body .service-title{
+    font-size: 30px;
+    color: #222222;
+    font-family: Montserrat;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+.col-md-4 .card-body .service-text{
+color: #565656;
+font-weight: 500;
+}
+.col-md-4 .card-body .learn-more{
+    color: #565656;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+}
+.col-md-4 .card-body .learn-more:hover{
+    border-bottom: 2px solid #0449C4;
+    list-style: none;
+}
+
+/************************* services-Finished ***************************/
+
+/************************* Price Section ***************************/
+.price{
+    height: 900px;
+}
+.row .price-text{
+    position: relative;
+    width: 400px!important;
+    height: 513px;
+    margin-top: 20px;
+
+}
+.row .price-text .price-back{
+    width: 350px!important;
+    background-color: #F7F7F7;
+    height: 513px;
+    margin-top: -50px;
+    position: absolute;
+    border-radius: 15px ;
+    box-shadow: 1px 1px 10px #d3aeae!important;
+    border-top: 10px solid #F7F7F7;
+}
+.row .price-text .price-back:hover{
+    border-top: 10px solid #BE63F9;
+    transition: 0.2s;
+}
+.row .price-text h2{
+    color: #222222;
+    font-weight: bold;
+    padding-right: 90px;
+    font-size: 35px;
+    padding-top: 35px;
+}
+.row .price-text h2 .save{
+ font-size: 15px;
+ background-color: #FFC107;
+ height: 30px!important;
+ width: 80px!important;
+ position: absolute;
+ border-radius: 50px;
+ padding-top: 6px;
+ margin-left: 12px;
+}
+.row .price-text h1{
+    font-weight: bold;
+    color: #26C6DA;
+    font-family: Roboto Black;
+}
+.row .price-text h1 .mo{
+font-size: 28px;
+color: #888888;
+
+}
+.row .price-text p{
+    font-size: 15px;
+    width: 250px;
+    margin-left: 50px;
+    padding-top: 3px;
+}
+.row .price-text .price-btn{
+    height: 47px;
+    width: 250px;
+    border: 2px solid #F8472B;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 500;
+    color: #5F2222;
+    background: transparent;
+}
+.row .price-text .price-btn:hover{
+    background-color: #F33924;
+    color: #fff;
+}
+.price .under-p{
+    padding-top: 25px!important;
+}
+.price .under-p .link{
+    color: #0449C4;
+    font-weight: 600;
+   
+}
+/*************************************** clind *******************************/
+.clind{
+height: 730px;
+background-color: #E61313;
+position: relative;
+}
+.clind .clind-header h2{
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto Black;
+    padding-top: 40px; 
+}
+.clind .clind-header p{
+    color: #fff;
+    width: 660px;
+    margin: 15px 200px;
+    position: absolute;
+}
+
+
+.clind .row .col-md-4 .image-area{
+    display: flex;
+    width: 400px;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.clind .row .col-md-4 .image-area img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+   
+}
+.clind .row .col-md-4 .text{
+    width: 290px;
+    margin-left: 40px;
+    padding-top: 40px;
+    color: #676767;
+    font-size: 15px;
+     }
+    
+.clind .row .col-md-4 .single-text-box{
+background-color: #F4F4F4;
+height: 320px;
+width: 380px;
+margin-top: 150px;
+width: 22rem;
+box-shadow: 1px 1px 10px #726060!important;
+transition: 00.5s;
+
+}
+.clind .row .col-md-4 .single-text-box:hover{
+    background-color: #e4d1d1;
+    transition: 00.5s;
+}
+.clind .row .col-md-4 .single-text-box h4{
+    padding: 12px 35px;
+}
+.clind .row .col-md-4 .single-text-box .image-area p{
+    padding-left: 35px;
+    line-height: 1px;
+    font-size: 16px;
+    color: #676767;
+    font-weight: 600;
+}
+
+/* ********************************Contact-Form ****************************/
+.contact-form{
+    height: 820px;
+    background-color: #fff;
+}
+.col-md-6 .form{
+    background-color: #fff;
+    height: 400px;
+    padding-top: 160px;
+}
+.col-md-6 .form .form-control{
+    margin: 20px 0px;
+    height: 50px;
+    border: 0px;
+    box-shadow: 1px 5px 10px #e9e1e1!important;
+    font-size: 15px;
+    color: #8F8F8F;
+}
+.col-md-6 .form .form-submit{
+background-color: #F53E27;
+color: #fff;
+border: 0px;
+height: 45px;
+width: 540px;
+position: absolute;
+border-radius: 50px;
+font-weight: 600;
+}
+.col-md-6 .form .form-submit .fa{
+    padding-right: 10px;
+    font-size: 15n.npx;
+}
+.contact-form .row .col-md-6 .contact-header{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.contact-form .row .col-md-6 .contact-header h2{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Roboto Black;
+    color: #222222;
+}
+.contact-form .row .col-md-6 .contact-header p{
+    width: 500px;
+    color: #222222;
+}
+.contact-form .row .col-md-6 .number{
+    background-color: #fff;
+    height: 230px;
+    width: 415px;
+    margin-left: 110px;
+    border-radius: 10px;
+    border-bottom: 10px solid #BE63F9;
+    box-shadow: 1px 5px 10px #c2b2b2!important;
+}
+.contact-form .row .col-md-6 .number img{
+   margin-top: 45px;
+
+}
+.contact-form .row .col-md-6 .number h3{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Roboto Black;
+    letter-spacing: -2px;
+    padding-top: 5px;
+
+}
+.contact-form .row .col-md-6 .number p{
+    width: 300px;
+   margin-left: 60px;
+}
+.contact-form .row .col-md-6 .mail{
+    background-color: #fff;
+    height: 230px;
+    width: 415px;
+    margin-left: 110px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-bottom: 10px solid #FC573B;
+    box-shadow: 1px 5px 10px #c2b2b2!important;
+}
+.contact-form .row .col-md-6 .mail .fa{
+    margin-top: 40px;
+    color: #FC573B;
+    font-size: 45px;
+ 
+ }
+ .contact-form .row .col-md-6 .mail h3{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Roboto Black;
+    letter-spacing: -1px;
+    padding-top: 5px;
+
+}
+.contact-form .row .col-md-6 .mail p{
+    width: 300px;
+   margin-left: 60px;
+}
+/******************************* footer-header *******************************************/
+.map{
+    height: 400px;
+}
+
+.footer-header{
+background-color: #EB2C24;
+height: 460px;
+}
+.footer-header h5{
+    font-size: 60px;
+    color: #fff;
+    width: 900px;
+    font-weight: bold;
+    line-height: 59px;
+    letter-spacing: -2px;
+    margin-left: 100px;
+}
+.footer-header .p-text{
+    width: 800px;
+    color: #FFF;
+    margin-left: 150px;
+}
+.footer-header .footer-button{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.footer-header .footer-button:hover{
+    background-color: #ca2917;
+    color: #fff;
+    border: 0px;
+}
+/******************************* footer-header-Finished*******************************************/
+
+/******************************* footer Section*******************************************/
+.footer{
+    height: 430px;
+    color: #fff;
+    padding-top: 50px;
+}
+.footer .col-md-3 h5{
+    color: #000;
+    font-weight: bold;
+}
+.footer .col-md-3 p{
+    color: #565656;
+
+}
+.footer .col-md-3 .footer-icon .social-media{
+    font-size: 22px;
+    letter-spacing: 8px;
+    color: #292C36;
+} 
+/******************************* footer Section Finished*******************************************/
+.footer-end{
+    background-color: #e4d5d5;
+    height: 60px;
+    color: #812222;
+}
